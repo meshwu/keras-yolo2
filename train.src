@@ -1,0 +1,5 @@
+conda activate tensorflow_p27
+
+python train.py -c config-tiny.json
+#python train.py -c config-full.json
+
