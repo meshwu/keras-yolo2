@@ -1,6 +1,6 @@
 conda activate tensorflow_p27
 
-python train.py -c config-tiny-320.json 2>&1 | tee config-tiny-320.log
-#python train.py -c config-tiny.json 2>&1 | tee config-tiny.log
-#python train.py -c config-full.json 2>&1 | tee config-tiny.log
+python train.py -c config-tiny.json 2>&1 | tee config-tiny.log
+#python train.py -c config-tiny-416.json 2>&1 | tee config-tiny-416.log
+#python train.py -c config-full-416.json 2>&1 | tee config-tiny-416.log
 
