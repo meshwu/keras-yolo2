@@ -9,7 +9,7 @@
 
     "train": {
         "train_image_folder":   "/home/ubuntu/keras-yolo2/dataset-320/images/",
-        "train_annot_folder":   "/home/ubuntu/keras-yolo2/dataset-320/anns/",
+        "train_annot_folder":   "/home/ubuntu/keras-yolo2/dataset-320/anns/",     
           
         "train_times":          10,
         "pretrained_weights":   "",
@@ -23,7 +23,7 @@
         "coord_scale":          1.0,
         "class_scale":          1.0,
 
-        "saved_weights_name":   "model-dir-tiny.h5",
+        "saved_weights_name":   "model-dir-tiny-320.h5",
         "debug":                true
     },
 
